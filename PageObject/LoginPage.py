@@ -7,7 +7,7 @@ class LoginPage(BasePage):
 
     def __init__(self, driver):  # This constructor get the driver from the actual test case
         # self.driver = driver    # Initiate the local driver and now the driver belong to the class then we can access the driver by using self keyword
-        super().__init__(driver) #super means the parent class which is the BasePage class
+        super().__init__(driver)  # super means the parent class which is the BasePage class
 
     input_email_id_locator = "input-email"
     input_password_id_locator = "input-password"
