@@ -1,5 +1,4 @@
 import pytest
-
 from PageObject.LoginPage import LoginPage
 from Utilities.readProperties import ReadConfig
 from Utilities import excelUtilities
